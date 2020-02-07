@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="eu.hradio.timeshiftplayer">
+
+	<!-- Android SDK < 19 KitKat must request this permission for App cache directory access.
+         Nevertheless >= SDK 19 KitKat doesn't need this, I encountered even some SDK 21 Lollipop systems which were wrong implemented regarding this permission.
+         To play safe, the component requests the permission up to SDK 22 Lollipop MR_1
+     -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application />
+
+</manifest>
